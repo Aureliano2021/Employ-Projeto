@@ -1,0 +1,83 @@
+.logo{
+    height: 75px;
+}
+
+.cabecalho{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px #1EA358 solid;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    margin-left: 30px;
+    margin-right: 50px;
+    
+}
+
+.link{
+    font-family: RobotoBold;
+    color: black;
+    text-decoration: none;
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+}
+
+.login {
+    background-color: #1EA358;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 50px;
+    text-align: center;
+    align-content: center;
+    font-family: RobotoBold;
+    color: white;
+    text-decoration: none;
+}
+
+.title_persuasivo{
+    text-align: center;
+    font-family: RobotoThin;
+    font-size: 50px;
+    margin: 30px 0px 0px 0px;
+    padding: 0;
+}
+.subtitle_persuasivo{
+    text-align: center;
+    font-size: 19px;
+    margin: 10px 0px 75px 0;
+    padding: 0;
+}
+
+.planos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(/fonts/ROBOTO/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: RobotoThin;
+    src: url(/fonts/ROBOTO/Roboto-Thin.ttf);
+}
