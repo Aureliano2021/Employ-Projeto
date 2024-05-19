@@ -63,6 +63,7 @@ header img{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-left: 15px;
 }
 
 section{
@@ -70,6 +71,77 @@ section{
     flex-direction: column;
     padding: 10px;
     margin: 15px;
+    border: 1px #1EA358 solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #1EA358;
+}
+
+.preco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.preco_numero{
+    margin-right: 10px;
+    font-family: Mont-SemiBold;
+    font-size: 40px;
+}
+
+.preco_mensais{
+    font-family: Mont-ExtraLight;
+}
+
+.preco_header{
+    margin-bottom: 10px;
+    font-family: RobotoLight;
+}
+
+.preco_header2{
+    margin-bottom: 35px;
+    font-family: RobotoLight;
+}
+
+.preco_fale{
+    font-family: Mont-SemiBold;
+    margin-bottom: 20px;
+}
+
+.botao_contrate{
+    background-color: #1EA358;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+    font-family: RobotoBold;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.botao_vendas{
+
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+    font-family: RobotoBold;
+    color: #1EA358;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px #1EA358 solid;
+}
+
+.servicos_plano{
+    font-family: Mont-RegularItalic;
 }
 
 @font-face {
@@ -80,4 +152,24 @@ section{
 @font-face{
     font-family: RobotoThin;
     src: url(/fonts/ROBOTO/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(/fonts/ROBOTO/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Mont-SemiBold;
+    src: url(/fonts/Mont/Mont-SemiBold.otf);
+}
+
+@font-face {
+    font-family: Mont-ExtraLight;
+    src: url(/fonts/Mont/Mont-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: Mont-RegularItalic;
+    src: url(/fonts/Mont/Mont-RegularItalic.otf);
 }
