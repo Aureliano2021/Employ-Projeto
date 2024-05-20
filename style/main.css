@@ -36,6 +36,10 @@ header img{
     align-content: center;
 }
 
+.link:hover{
+    background-color: #1ea3584f;
+}
+
 .login {
     background-color: #1EA358;
     width: 250px;
@@ -47,6 +51,10 @@ header img{
     font-family: RobotoBold;
     color: white;
     text-decoration: none;
+}
+
+.login:hover{
+    background-color: #1ea358be;
 }
 
 .title_persuasivo{
@@ -130,6 +138,10 @@ main{
     
 }
 
+.botao_contrate:hover{
+    background-color: #1ea358be;
+}
+
 .botao_vendas{
 
     background-color: white;
@@ -147,6 +159,11 @@ main{
     border: 1px #1EA358 solid;
 }
 
+.botao_vendas:hover{
+    background-color: #1EA358;
+    color: white;
+}
+
 .servicos_plano{
     font-family: Mont-RegularItalic;
 }
@@ -157,6 +174,7 @@ main{
     justify-content: space-around;
     margin-left: 15px;
     background-color: #454d48;
+    font-family: RobotoLight;
 }
 
 .card_rodape{
@@ -171,9 +189,20 @@ main{
     color: whitesmoke;
 }
 
+.link_rodape:hover{
+    color: rgb(168, 202, 174);
+}
+
 .redes_sociais{
+    
     width: 25px;
     height: 25px;
+    margin: 1px;
+}
+.img_redes{
+    display: flex;
+    flex-direction: row;
+    
 }
 @font-face {
     font-family: RobotoBold;
