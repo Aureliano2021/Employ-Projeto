@@ -2,6 +2,10 @@
     height: 75px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .cabecalho{
         display: flex;
         align-items: center;
@@ -59,14 +63,17 @@ header img{
     padding: 0;
 }
 
+main{
+    margin: 50px;
+}
 .planos{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
-section{
+.card_planos{
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -144,6 +151,30 @@ section{
     font-family: Mont-RegularItalic;
 }
 
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 15px;
+    background-color: #454d48;
+}
+
+.card_rodape{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+}
+
+.link_rodape{
+    color: whitesmoke;
+}
+
+.redes_sociais{
+    width: 25px;
+    height: 25px;
+}
 @font-face {
     font-family: RobotoBold;
     src: url(/fonts/ROBOTO/Roboto-Bold.ttf);
