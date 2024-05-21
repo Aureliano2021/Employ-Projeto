@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px){
+    .planos{
+        flex-direction: column;
+    }
+
+    .rodape{
+        flex-direction: column;
+    }
+}
+
+@media screen  and (max-width: 1200px){
+    .preco_numero{
+        margin-right: 10px;
+        font-family: Mont-SemiBold;
+        font-size: 25px;
+    }
+
+    .preco_fale{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header{
+        flex-direction: column;
+        margin: 0;
+        height: 300 px;
+    }
+
+    .navegacao{
+        flex-direction: column;
+        margin: 0;
+        height: 250px;
+    }
+
+    .login{
+        margin: auto;
+    }
+}
