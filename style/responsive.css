@@ -23,8 +23,9 @@
 @media screen and (max-width: 1000px) {
     header{
         flex-direction: column;
-        margin: 0;
+        margin: auto;
         height: 300 px;
+        padding-bottom: 15px;
     }
 
     .navegacao{
